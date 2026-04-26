@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monografi Kelurahan Batu Teritip</title>
+    <link rel="icon" href="assets/OIP.jpeg">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#1e3a8a",
+                        secondary: "#64748b"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 overflow-x-hidden">
+
+<header class="bg-primary text-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+        
+        <div class="flex items-center gap-3">
+            <img src="assets/Dumai.png" class="w-12 h-10 object-contain">
+            <h1 class="text-sm md:text-lg font-semibold">
+                Kelurahan Batu Teritip
+            </h1>
+        </div>
+
+        <nav class="hidden md:flex gap-6 text-sm">
+            <a href="index.html" class="hover:text-gray-300">Home</a>
+            <a href="profil.html" class="hover:text-gray-300">Profil</a>
+            <a href="kontak.html" class="hover:text-gray-300">Kontak</a>
+            <a href="monografi.html" class="text-gray-300">Monografi</a>
+            <a href="statistik.html" class="hover:text-gray-300">Statistik</a>
+        </nav>
+    </div>
+</header>
+
+
+<section class="text-center py-12" data-aos="fade-up" data-aos-duration="1000">
+    <img src="assets/monografi.jpg" class="mx-auto w-32 mb-4 rounded-lg shadow">
+    <h2 class="text-2xl md:text-3xl font-bold text-primary">
+        Monografi Kelurahan
+    </h2>
+    <p class="text-gray-500 text-sm mt-2">
+        Data resmi wilayah Kelurahan Batu Teritip
+    </p>
+</section>
+
+
+<section class="max-w-6xl mx-auto px-4 pb-12" data-aos="zoom-in" data-aos-delay="200">
+
+    <div class="bg-white rounded-xl shadow p-4 border border-gray-100">
+
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-semibold text-primary">
+                Dokumen Monografi
+            </h3>
+
+            <a href="assets/monografi.pdf" download
+               class="text-sm bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-900 transition">
+               Download PDF
+            </a>
+        </div>
+
+        <iframe 
+            src="assets/monografi.pdf" 
+            class="w-full h-[800px] rounded-lg border shadow-inner">
+        </iframe>
+
+        <p class="text-xs text-gray-500 mt-3 text-center">
+            Jika dokumen tidak tampil, silakan download file melalui tombol di atas.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="bg-white py-12">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+
+        <div data-aos="fade-right">
+            <h3 class="text-xl font-semibold text-primary mb-4">
+                Alamat Kantor
+            </h3>
+            <p class="text-sm text-gray-600 leading-relaxed">
+                3778+JR8, Batu Teritip, Kec. Sungai Sembilan,
+                Kota Dumai, Riau 28826
+            </p>
+        </div>
+
+        <div data-aos="fade-left">
+            <iframe 
+                class="w-full h-[300px] rounded-xl shadow"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255172.67184997728!2d101.16528894999999!3d2.12560555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d28d60e54b9067%3A0x16828354147ea50f!2sBatu%20Teritip%2C%20Kec.%20Sungai%20Sembilan%2C%20Kota%20Dumai%2C%20Riau!5e0!3m2!1sid!2sid!4v1722914560465!5m2!1sid!2sid"
+                loading="lazy">
+            </iframe>
+        </div>
+
+    </div>
+</section>
+
+
+<footer class="bg-primary text-white mt-10">
+    <div class="max-w-6xl mx-auto px-4 py-6 text-center text-sm">
+        <p>© 2026 Kelurahan Batu Teritip</p>
+        <p class="text-gray-300">
+            Dibuat oleh Mahasiswa KKN UIN SUSKA RIAU
+        </p>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    // Inisialisasi AOS
+    AOS.init({
+        duration: 800, // Kecepatan animasi (ms)
+        once: true,    // Animasi hanya jalan sekali
+        offset: 100    // Jarak (px) elemen sebelum animasi muncul
+    });
+</script>
+
+</body>
+</html>

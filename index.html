@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelurahan Batu Teritip</title>
+    <link rel="icon" href="OIP.jpeg">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#1e3a8a",
+                        secondary: "#64748b"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+<!-- NAVBAR -->
+<header class="bg-primary text-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+        
+        <div class="flex items-center gap-3">
+            <img src="assets/Dumai.png" class="w-12 h-10 object-contain">
+            <h1 class="text-sm md:text-lg font-semibold tracking-wide">
+                Kelurahan Batu Teritip
+            </h1>
+        </div>
+
+        <nav class="hidden md:flex gap-6 text-sm font-medium">
+            <a href="index.html" class="hover:text-gray-300">Home</a>
+            <a href="profil.html" class="hover:text-gray-300">Profil</a>
+            <a href="kontak.html" class="hover:text-gray-300">Kontak</a>
+            <a href="monografi.html" class="hover:text-gray-300">Monografi</a>
+            <a href="statistik.html" class="hover:text-gray-300">Statistik</a>
+        </nav>
+    </div>
+</header>
+
+
+<!-- HERO -->
+<section class="relative">
+    <img src="assets/tampakdepan.jpg" class="w-full h-[450px] object-cover">
+
+    <div class="absolute inset-0 bg-black/50 flex items-center justify-center text-center px-4">
+        <div class="text-white max-w-2xl" data-aos="fade-up">
+            <h2 class="text-2xl md:text-4xl font-bold mb-4">
+                Selamat Datang di Website Resmi
+            </h2>
+            <p class="text-sm md:text-lg text-gray-200">
+                Kelurahan Batu Teritip – Informasi pelayanan, profil wilayah, dan data statistik masyarakat.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- ABOUT -->
+<section class="max-w-6xl mx-auto px-4 py-12">
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+
+        <img src="assets/tampakdalam.jpg" 
+             class="rounded-xl shadow-md"
+             data-aos="fade-right">
+
+        <div data-aos="fade-left">
+            <h3 class="text-xl font-semibold text-primary mb-4">
+                Tentang Kelurahan
+            </h3>
+
+            <p class="text-sm text-gray-600 leading-relaxed">
+                Kelurahan Batu Teritip merupakan salah satu wilayah administratif yang berada di Kota Dumai.
+                Website ini bertujuan untuk memberikan informasi yang transparan, akurat, dan mudah diakses
+                oleh masyarakat terkait layanan publik dan data wilayah.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- MENU -->
+<section class="bg-white py-12">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+
+        <h3 class="text-xl font-semibold text-primary mb-8" data-aos="fade-up">
+            Informasi & Layanan
+        </h3>
+
+        <div class="grid md:grid-cols-4 gap-6">
+
+            <a href="profil.html" 
+               class="p-6 bg-gray-50 rounded-xl shadow hover:shadow-lg transition"
+               data-aos="zoom-in" data-aos-delay="100">
+                <h4 class="font-semibold mb-2">Profil</h4>
+                <p class="text-sm text-gray-500">Informasi lengkap kelurahan</p>
+            </a>
+
+            <a href="kontak.html" 
+               class="p-6 bg-gray-50 rounded-xl shadow hover:shadow-lg transition"
+               data-aos="zoom-in" data-aos-delay="200">
+                <h4 class="font-semibold mb-2">Kontak</h4>
+                <p class="text-sm text-gray-500">Hubungi kami</p>
+            </a>
+
+            <a href="monografi.html" 
+               class="p-6 bg-gray-50 rounded-xl shadow hover:shadow-lg transition"
+               data-aos="zoom-in" data-aos-delay="300">
+                <h4 class="font-semibold mb-2">Monografi</h4>
+                <p class="text-sm text-gray-500">Data wilayah</p>
+            </a>
+
+            <a href="statistik.html" 
+               class="p-6 bg-gray-50 rounded-xl shadow hover:shadow-lg transition"
+               data-aos="zoom-in" data-aos-delay="400">
+                <h4 class="font-semibold mb-2">Statistik</h4>
+                <p class="text-sm text-gray-500">Data penduduk</p>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="bg-primary text-white mt-10">
+    <div class="max-w-6xl mx-auto px-4 py-6 text-center text-sm">
+        <p>© 2026 Kelurahan Batu Teritip</p>
+        <p class="text-gray-300">Pemerintah Kota Dumai</p>
+    </div>
+</footer>
+
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 800,
+        once: true
+    });
+</script>
+
+</body>
+</html>

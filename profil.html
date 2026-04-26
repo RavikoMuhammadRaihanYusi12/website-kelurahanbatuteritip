@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Kelurahan Batu Teritip</title>
+    <link rel="icon" href="OIP.jpeg">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#1e3a8a",
+                        secondary: "#64748b"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+<!-- NAVBAR -->
+<header class="bg-primary text-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+        
+        <div class="flex items-center gap-3">
+            <img src="assets/Dumai.png" class="w-12 h-10 object-contain">
+            <h1 class="text-sm md:text-lg font-semibold">
+                Kelurahan Batu Teritip
+            </h1>
+        </div>
+
+        <nav class="hidden md:flex gap-6 text-sm">
+            <a href="index.html" class="hover:text-gray-300">Home</a>
+            <a href="profil.html" class="text-gray-300">Profil</a>
+            <a href="kontak.html" class="hover:text-gray-300">Kontak</a>
+            <a href="monografi.html" class="hover:text-gray-300">Monografi</a>
+            <a href="statistik.html" class="hover:text-gray-300">Statistik</a>
+        </nav>
+    </div>
+</header>
+
+
+<!-- HERO -->
+<section class="relative">
+    <img src="assets/frontpanel.png" class="w-full h-[450px] object-cover">
+
+    <div class="absolute inset-0 bg-black/50 flex items-center justify-center text-center px-4">
+        <div class="text-white max-w-2xl" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="text-2xl md:text-4xl font-bold mb-4">
+                Profil Kelurahan
+            </h2>
+            <p class="text-sm md:text-lg text-gray-200">
+                Kelurahan Batu Teritip – Informasi pelayanan, profil wilayah, dan data statistik masyarakat.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="text-center py-12">
+    <img src="assets/profil.jpg" class="mx-auto w-32 mb-4 rounded-lg shadow" data-aos="zoom-in" data-aos-duration="800">
+    <h2 class="text-2xl md:text-3xl font-bold text-primary" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+        Profil Kelurahan
+    </h2>
+    <p class="text-gray-500 text-sm mt-2 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+        Batu Teritip adalah kelurahan di Kecamatan Sungai Sembilan, Kota Dumai, Provinsi Riau, dengan karakter wilayah pesisir dan masyarakat multietnis.
+    </p>
+</section>
+
+
+<!-- DESKRIPSI -->
+<section class="max-w-5xl mx-auto px-4 pb-12 text-center">
+    <p class="text-gray-600 text-sm leading-relaxed" data-aos="fade-up" data-aos-duration="800">
+        Kelurahan Batu Teritip memiliki jarak tempuh kurang lebih 3 jam dari pusat Kota Dumai. Wilayah ini terdiri dari 13 RT dengan jarak antar wilayah yang cukup berjauhan karena luasnya area. Mayoritas penduduk merupakan pendatang dari berbagai suku seperti Melayu, Jawa, Batak, Bugis, dan Minang, yang menciptakan keberagaman sosial budaya.
+    </p>
+</section>
+
+
+<!-- VISI MISI -->
+<section class="bg-white py-12">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8">
+
+        <!-- VISI -->
+        <div class="p-6 bg-gray-50 rounded-xl shadow" data-aos="fade-right" data-aos-duration="800">
+            <h3 class="text-xl font-semibold text-primary mb-4 text-center">
+                Visi
+            </h3>
+            <p class="text-sm text-gray-600 text-center">
+                "Terwujudnya pemerintahan yang terbaik melalui pelayanan prima terhadap masyarakat."
+            </p>
+        </div>
+
+        <!-- MISI -->
+        <div class="p-6 bg-gray-50 rounded-xl shadow" data-aos="fade-left" data-aos-duration="800">
+            <h3 class="text-xl font-semibold text-primary mb-4 text-center">
+                Misi
+            </h3>
+            <ul class="text-sm text-gray-600 space-y-2 list-decimal list-inside">
+                <li>Meningkatkan efisiensi dan efektivitas penyelenggaraan tugas aparat kelurahan.</li>
+                <li>Mewujudkan aparat yang profesional dan berintegritas.</li>
+                <li>Mewujudkan pemerintahan yang baik dan bersih.</li>
+                <li>Menampung aspirasi masyarakat melalui musyawarah.</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- SEJARAH -->
+<section class="max-w-6xl mx-auto px-4 py-12">
+
+    <h3 class="text-xl font-semibold text-primary mb-6 text-center" data-aos="fade-up" data-aos-duration="800">
+        Sejarah Kelurahan
+    </h3>
+
+    <div class="bg-white p-6 rounded-xl shadow text-sm text-gray-600 leading-relaxed space-y-4">
+
+        <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="0">
+            Kelurahan Batu Teritip awalnya merupakan desa kepenghuluan di Kecamatan Bukit Kapur, Kabupaten Bengkalis. Setelah pembentukan Kota Dumai berdasarkan Undang-Undang Nomor 16 Tahun 1999, wilayah ini mengalami perubahan status menjadi kelurahan.
+        </p>
+
+        <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+            Seiring perkembangan wilayah dan kepadatan penduduk, Kecamatan Bukit Kapur dimekarkan menjadi beberapa kecamatan, termasuk Kecamatan Sungai Sembilan, di mana Kelurahan Batu Teritip berada saat ini.
+        </p>
+
+        <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="150">
+            Kelurahan ini memiliki luas wilayah sekitar 415,38 km² dengan karakteristik wilayah pesisir, pertanian, dan perkebunan. Sebagian besar wilayah masih berupa hutan, dengan kepadatan penduduk relatif rendah.
+        </p>
+
+        <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
+            Infrastruktur jalan sebagian masih berupa tanah, sehingga mobilitas masyarakat dipengaruhi oleh kondisi cuaca. Transportasi utama meliputi kendaraan roda dua, roda empat, dan kapal motor pada musim tertentu.
+        </p>
+
+        <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">
+            Masyarakat Kelurahan Batu Teritip terdiri dari berbagai suku di Indonesia, mencerminkan keberagaman budaya yang harmonis dalam kehidupan sosial.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="bg-primary text-white mt-10">
+    <div class="max-w-6xl mx-auto px-4 py-8 grid md:grid-cols-2 gap-6 text-sm">
+
+        <div data-aos="fade-right" data-aos-duration="800">
+            <h4 class="font-semibold mb-2">Alamat</h4>
+            <p class="text-gray-300">
+                3778+JR8, Batu Teritip, Kec. Sungai Sembilan,
+                Kota Dumai, Riau 28826
+            </p>
+        </div>
+
+        <div data-aos="fade-left" data-aos-duration="800">
+            <h4 class="font-semibold mb-2">Kontak</h4>
+            <p class="text-gray-300">Whatsapp: +62 852-7148-5798</p>
+            <p class="text-gray-300">Facebook: Kelurahan Batu Teritip</p>
+        </div>
+
+    </div>
+
+    <div class="text-center text-xs text-gray-300 pb-4">
+        © 2026 Kelurahan Batu Teritip
+    </div>
+</footer>
+
+<!-- AOS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init({
+        once: true,       // animasi hanya berjalan sekali saat scroll
+        offset: 80,       // jarak dari bawah viewport sebelum animasi mulai
+        easing: 'ease-out-cubic'
+    });
+</script>
+
+</body>
+</html>
